@@ -29,8 +29,18 @@
 	margin: 40px auto 0px;
 }
 
+.header_nav {
+	display:flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-between;
+}
+
 .main_menu {
 	width: 533px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .menu_item {
@@ -52,6 +62,9 @@
 .main {
 	width: 1170px;
 	margin: 84px auto 0px;
+	display: flex;
+	align-items: flex-start;
+	gap: 41px;
 }
 
 .main_content {
@@ -109,5 +122,8 @@
 .footer {
 	width: 1170px;
 	margin: 97px auto;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
 
 }
