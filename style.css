@@ -136,12 +136,17 @@
 	width: 1170px;
 	margin: 100px auto;
 	display: flex;
-	align-content: center;
-	justify-content: center;
-	gap: 60px;
+	justify-content: space-between;
 }
 
 .feature_item {
+	width: 370px;
+	padding: 40px 30px 25px 30px;
+}
+
+.center_feature_item {
+	background: #fff;
+	box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
 }
 
 .feature_heading {
@@ -155,5 +160,62 @@
 	line-height: normal;
 }
 
+.feature_text {
+	color: #666;
+	font-family: Gilroy-Regular;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+}
+
 .feature_button {
+	height: 17px;
+	margin-top: 25px;
+	border: none;
+	background: none;
+	color: #000;
+	font-family: Gilroy-Bold;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+.services {
+	width: 1170px;
+	margin: 92px auto 100px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.services_header {
+	width: 579px;
+	text-align: center;
+	color: #000;
+	font-family: Gilroy-Bold;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	
+}
+
+.services_text {
+}
+
+.services_items {
+}
+
+.services_item {
+}
+
+.services_item_header {
+}
+
+.services_item_text {
+}
+
+.services_item_button {
 }
