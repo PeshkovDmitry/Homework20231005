@@ -182,9 +182,13 @@
 	line-height: 150%;
 }
 
+.services_container {
+	background: #fafafa;
+}
+
 .services {
 	width: 1170px;
-	margin: 92px auto 100px auto;
+	margin: 0px auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -192,6 +196,8 @@
 
 .services_header {
 	width: 579px;
+	margin-top: 92px;
+	margin-bottom: 19px;
 	text-align: center;
 	color: #000;
 	font-family: Gilroy-Bold;
@@ -199,23 +205,75 @@
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
-	
 }
 
 .services_text {
+	width: 682px;
+	color: #666;
+	text-align: center;
+	font-family: Gilroy-Regular;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	/* 24px */
 }
 
 .services_items {
+	margin-top: 54px;
+	margin-bottom: 100px;
+	display: flex;
+	align-items: center;
+	gap: 30px;
 }
 
 .services_item {
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.services_center_item {
+	box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
 }
 
 .services_item_header {
+	margin: 25px auto 22px;
+	color: #000;
+	font-family: Gilroy-Bold;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
 
 .services_item_text {
+	margin: 0px auto 39px;
+	color: #aaa;
+	text-align: center;
+	font-family: Gilroy-Regular;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	/* 22.5px */
 }
 
 .services_item_button {
+	margin: 0px auto 50px;
+	background-color: #f25822;
+	border: none;
+	border-radius: 25px;
+}
+
+.services_item_button_text {
+	margin: 15px 36px 15px 46px;
+	color: #fff;
+	text-align: center;
+	font-family: Gilroy-Bold;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
 }
